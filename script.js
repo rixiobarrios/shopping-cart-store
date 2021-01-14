@@ -63,7 +63,7 @@ function renderShop() {
                 <div>${item.name}</div>
                 <div>$${item.price}</div>
                 <image src="${item.image}"/>
-                <input id="quantity" type="number" placeholder="quantity"/>
+                <input id="quantity" type="number" placeholder="Quantity"/>
                 <button
                     id="button-add"
                     onClick='addToCart(${i}, "${item.name}")'>

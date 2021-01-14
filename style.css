@@ -1,55 +1,46 @@
 body {
-    padding: 10px;
+    /* padding: 10px; */
     background-color: #ffff;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 header {
     display: flex;
     flex-direction: row;
     height: 100px;
-    width: 79vw;
+    width: 80vw;
     padding: 10px 10px;
-    border-radius: 10px;
     margin: 0 auto;
-    background: #555;
 }
 
 .cart-logo {
     height: 80px;
     padding: 0 auto;
     margin: 10px 10px;
-    border-radius: 15px;
 }
 
 h1 {
-    font-size: 70px;
-    color: #f5f5f5;
-    padding: 5px 0px;
-    margin: 0px 10px;
+    font-size: 40px;
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 h2 {
     padding: 0px 20px 0px 20px;
-    color: #bbbbbb;
-    text-transform: uppercase;
 }
 
 #total,
 #amount {
-    color: #bbbbbb;
-    text-transform: uppercase;
+    color: black;
 }
 
 section {
     justify-content: center;
     display: flex;
     flex-direction: row;
+    border: 2px solid black;
 }
 
 #items {
@@ -61,20 +52,18 @@ section {
 }
 
 #items li {
-    background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
     margin: 10px;
     padding: 20px;
-    border-radius: 10px;
+    border: 2px solid black;
 }
 
 #cart {
     justify-content: left;
     display: flex;
     flex-direction: column;
-    background-color: #ffff;
-    height: 28vw;
+    height: 25vw;
     width: 40vw;
     padding: 10px;
     overflow: scroll;
@@ -83,10 +72,9 @@ section {
 #cart li {
     display: grid;
     grid-template-columns: 0.5fr 1fr;
-    background-color: #f5f5f5;
     margin: 10px;
     padding: 20px;
-    border-radius: 10px;
+    border: 2px solid black;
 }
 
 .left-block {
@@ -105,13 +93,15 @@ input {
 }
 
 #button-add {
-    border: 1px solid #82ca9c;
-    background-color: #82ca9c;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 black;
 }
 
 #button-remove {
-    border: 1px solid #f69679;
-    background-color: #f69679;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 black;
 }
 
 button,
@@ -119,12 +109,11 @@ button,
     float: right;
     width: 120px;
     height: 30px;
-    border: 1px solid #82ca9c;
-    background-color: #82ca9c;
-    text-transform: uppercase;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 0 black;
 }
 
-img,
 input,
 #button-add,
 #button-remove {
@@ -134,37 +123,23 @@ input,
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    text-transform: uppercase;
     outline: none;
 }
 
-#button-add:hover {
-    border: 1px solid #f69679;
-    background: #f69679;
-}
-
-#button-remove:hover {
-    border: 1px solid #82ca9c;
-    background: #82ca9c;
-}
-
+#button-add:hover,
+#button-remove:hover,
 #button-checkout:hover {
-    border: 1px solid #f69679;
-    background: #f69679;
+    box-shadow: 2px 2px 0 black;
 }
 
 footer {
     color: #bbbbbb;
     text-align: center;
-    padding: 2px 0px;
     margin: 0 auto;
     font-size: 30px;
 }
 
-a {
-    color: #82ca9c;
-}
-
+a,
 a:hover {
-    color: #f69679;
+    color: black;
 }
