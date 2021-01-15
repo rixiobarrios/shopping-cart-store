@@ -1,5 +1,4 @@
 body {
-    /* padding: 10px; */
     background-color: #ffff;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +62,7 @@ section {
     justify-content: left;
     display: flex;
     flex-direction: column;
-    height: 25vw;
+    height: 34.2vw;
     width: 40vw;
     padding: 10px;
     overflow: scroll;
@@ -114,6 +113,7 @@ button,
     box-shadow: 5px 5px 0 black;
 }
 
+img,
 input,
 #button-add,
 #button-remove {
